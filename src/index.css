@@ -1,0 +1,11 @@
+:root {
+    --font-family: system-ui;
+    --font-size: 14px;
+    --margin: 0;
+  }
+  
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    margin: var(--margin);
+}

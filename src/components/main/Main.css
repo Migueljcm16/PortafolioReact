@@ -1,0 +1,13 @@
+.main-banner {
+    padding-top: 63px;
+    height: 400px;
+    background: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & span {
+        font-size: 3em;
+        font-weight: bold;
+    }
+}
