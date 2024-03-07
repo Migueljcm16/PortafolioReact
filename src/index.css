@@ -3,7 +3,7 @@
     --font-family-strong: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
     --font-size: 0.8rem;
     --margin: 0;
-    --padding-body: 0 30px;
+    --padding-body: 0 20px;
 
     --white-font-color: #ffffff;
     --black-font-color: #000000;
@@ -27,5 +27,6 @@ html {
     --background-color-main: #0b0a18;
     --background-color-active: #ffffff24;
     --background-social-link: #8d8d8d45;
+    --background-nav-ul: #ffffff80;
     --gradient-background-color: radial-gradient(ellipse 80% 80% at 50% -20%, #7877c64d, #fff0);
 }

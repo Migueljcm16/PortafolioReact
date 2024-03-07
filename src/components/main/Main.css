@@ -79,6 +79,17 @@
     gap: 15px;
 }
 
+.info-subttile-section {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    & span {
+        color: var(--greenlight-font-color);
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
 .info-body-section {
     display: flex;
 
@@ -97,6 +108,59 @@
     }
 }
 
+.info-languaje ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 15px;
+
+    & li {
+        display: flex;
+        padding: 5px 10px;
+        border-radius: 25px;
+        gap: 6px;
+
+        & svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        & span {
+            display: flex;
+            align-items: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+    }
+}
+
+.info-github-link { 
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+
+    & a {
+        text-decoration: none;
+        color: var(--white-font-color);
+        display: flex;
+        padding: 10px 12px;
+        border-radius: 25px;
+        gap: 10px;
+
+        & svg {
+            width: 25px;
+            height: 25px;
+        }
+
+        & span {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+}
+
 .carousel-root {
     text-align: center;
 
@@ -105,17 +169,13 @@
     }
 }
 
-.thumbs{
-    padding: 0;
+.carousel .slider-wrapper {
+    border-radius: 15px;
 }
 
 @media (max-width: 740px) {
     .main-banner {
         gap: 40px;
-    
-        & > div:nth-child(3) ul li a {
-            
-        }
     }
 
     .banner-tittle-section {
@@ -153,8 +213,43 @@
         margin-bottom: 15px;
     }
 
+    .info-subttile-section {
+        margin-top: 20px;
+    
+        & span {
+            font-size: 1rem;
+        }
+    }
+
     .info-body-section p {
         font-size: 0.8rem;
         line-height: 20px;
+    }
+
+    .info-languaje ul li {
+
+        & svg {
+            width: 15px;
+            height: 15px;
+        }
+
+        & span {
+            font-size: 0.5rem;
+        }
+    }
+    
+    .info-github-link a { 
+        padding: 8px 10px;
+        border-radius: 25px;
+        gap: 10px;
+
+        & svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        & span {
+            font-size: 0.8rem;
+        }
     }
 }
