@@ -73,7 +73,7 @@ export default function Main() {
                     <img src="./assets/sistema-scanner/scanner-1.png" />
                 </div>
                 <div>
-                    <img src="./src/assets/sistema-scanner/scanner-2.png" />
+                    <img src="./assets/sistema-scanner/scanner-2.png" />
                 </div>
                 <div>
                     <img src="./assets/sistema-scanner/scanner-3.png" />
