@@ -70,22 +70,22 @@ export default function Main() {
               <div className='info-tittle-section'><FaCode/><span>Proyectos</span></div>
               <Carousel showIndicators={false}>
                 <div>
-                    <img src="./src/assets/sistema-scanner/scanner-1.png" />
+                    <img src="./assets/sistema-scanner/scanner-1.png" />
                 </div>
                 <div>
                     <img src="./src/assets/sistema-scanner/scanner-2.png" />
                 </div>
                 <div>
-                    <img src="./src/assets/sistema-scanner/scanner-3.png" />
+                    <img src="./assets/sistema-scanner/scanner-3.png" />
                 </div>
                 <div>
-                    <img src="./src/assets/sistema-scanner/scanner-4.png" />
+                    <img src="./assets/sistema-scanner/scanner-4.png" />
                 </div>
                 <div>
-                    <img src="./src/assets/sistema-scanner/scanner-5.png" />
+                    <img src="./assets/sistema-scanner/scanner-5.png" />
                 </div>
                 <div>
-                    <img src="./src/assets/sistema-scanner/scanner-6.png" />
+                    <img src="./assets/sistema-scanner/scanner-6.png" />
                 </div>
               </Carousel>
           </section>
