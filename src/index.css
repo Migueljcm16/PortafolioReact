@@ -1,11 +1,31 @@
 :root {
-    --font-family: system-ui;
-    --font-size: 14px;
+    --font-family: "Onest", sans-serif;
+    --font-family-strong: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    --font-size: 0.8rem;
     --margin: 0;
-  }
+    --padding-body: 0 30px;
+
+    --white-font-color: #ffffff;
+    --black-font-color: #000000;
+    --green-font-color: #b0e600;
+    --greenlight-font-color: #eeff92;
+    --gray-font-color: #d1d5db;
+}
   
 body {
+    color: var(--white-font-color);
     font-family: var(--font-family);
     font-size: var(--font-size);
     margin: var(--margin);
+    padding: var(--padding-body);
+    background: var(--background-color-main);
+    background-image: var(--gradient-background-color);
+    min-height: 100vh;
+}
+
+html {
+    --background-color-main: #0b0a18;
+    --background-color-active: #ffffff24;
+    --background-social-link: #8d8d8d45;
+    --gradient-background-color: radial-gradient(ellipse 80% 80% at 50% -20%, #7877c64d, #fff0);
 }
