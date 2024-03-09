@@ -38,7 +38,7 @@ export default function Nav() {
             <li><a href="#inicio" className={activeLink === 'inicio' ? 'active' : ''}>INICIO</a></li>
             <li><a href="#acercaDeMi" className={activeLink === 'acercaDeMi' ? 'active' : ''}>SOBRE MI</a></li>
             <li><a href="#proyectos" className={activeLink === 'proyectos' ? 'active' : ''}>PROYECTOS</a></li>
-            <li><a href="#contacto" className={activeLink === 'contacto' ? 'active' : ''}>CONTACTO</a></li>
+            <li><a href="mailto:31miguelop31@gmail.com">CONTACTO</a></li>
           </ul>
         </nav>
     </>
